@@ -1,0 +1,58 @@
+/* style.css - Jednoduché styly pro celý web */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* Světle šedé pozadí */
+    color: #333;
+}
+
+header {
+    background-color: #004080; /* Tmavě modrá pro hlavičku */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffd700; /* Zlatá barva pro nadpis */
+}
+
+/* Hlavní obsah stránky */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #cc3300; /* Červeno-oranžová barva pro sekce */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Styly pro seznam a odstavce */
+p, ul, ol {
+    line-height: 1.6;
+}
+
+/* Obrázky */
+img {
+    max-width: 100%; 
+    height: auto;
+    border: 3px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Patka */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
